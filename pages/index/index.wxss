@@ -1,0 +1,273 @@
+/* pages/bus/bus.wxss */
+.nav{
+  width: 100%;
+  height: 100rpx;
+  border-bottom: 1px solid #fff;
+}
+.nav_bar{
+  width: 100%;
+  height:100rpx;
+  line-height: 100rpx;
+}
+/*导航栏user头像  */
+.nav_bar .user {
+  float: left;
+  width:80rpx;
+  margin-top: 15rpx;
+  margin-left: 5%;
+}
+.nav_bar .user image{
+  width:60rpx;
+  height: 60rpx;
+}
+.nav_li{
+ width:80%;
+ overflow-x: auto;
+ font-size: 14px;
+}
+
+
+.content{
+  width: 100%;
+  height: 60%;
+}
+
+
+
+/*  */
+.inputs{
+  background-color: #F4F2F7;
+  padding-bottom: 100rpx;
+ 
+}
+.pick_title{
+  display: inline-block;
+  width: 40%;
+}
+.pick_{
+  display: inline-block;
+  width: 52%;
+ 
+}
+.left{
+  font-size: 25px;
+  color: #e6e6e6;
+}
+
+.inputs .section,.zuowei{
+  background-color: #fff;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  width: 97%;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-top: 2rpx;
+}
+/*座位数量选择  */
+.zuowei{
+  width:97%;
+  height: 100rpx;
+}
+.zuowei_title{
+  float: left;
+  width: 80%;
+}
+.zuowei_add_add{
+  float: left;
+ 
+}
+.zuowei_add,.zuowei_add-,.zuowei_num{
+  float: left;
+}
+.zuowei_add,.zuowei_add-{
+  width: 40rpx;
+  border: 4rpx solod #e6e6e6;
+  font-size: 25px;
+  font-weight: 700;
+}
+.zuowei_num{
+   width: 60rpx;
+}
+
+.btn{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+}
+
+
+
+/*校园滴滴  */
+.tishi{
+  background-color: #fff;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-top: 1rpx;
+  font-size: 14px;
+  color: red;
+  width: 96%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.didi_list{
+  background-color: #fff;
+  height: 100rpx;
+  margin-top: 1rpx;
+  line-height: 100rpx;
+  width: 96%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.qidians,.zhongdians,.poin_img,.qidian_loca,.zhongdian_loca{
+  float:left;
+}
+.qidian_loca,.zhongdian_loca{
+  font-size: 15px;
+  
+}
+.poin_img{
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.poin_img image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 20rpx;
+}
+.didi_money{
+  text-align: center;
+  height: 120rpx;
+  line-height: 120rpx;
+  margin-top:3rpx;
+  background-color: #fff;
+}
+
+.didi_money .money{
+  font-size: 22px;
+  display: inline-block;
+  width: 15%;
+ 
+}
+.btn_didi{
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+
+/*在线支付  */
+.right{
+  background-color: #F4F2F7;
+  width: 100%;
+  height: 800rpx;
+}
+.right .title{
+  height: 120rpx;
+  line-height: 120rpx;
+}
+.zifus{
+  background-color: #F4F2F7;
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+   height: 60rpx;
+  line-height: 60rpx;
+   margin-top: 20rpx;
+}
+.zf_li{
+ display: inline-block;
+  width: 25%;
+  height: 60rpx;
+  line-height: 60rpx;
+  border: 2rpx solid #000;
+  border-radius:10rpx;
+  text-align: center;
+ 
+}
+.li2,.li3,.li5,.li6{
+  margin-left: 5%;
+}
+.right input{
+  margin-top: 20rpx;
+  width:75%;
+  margin-left: 11%;
+  height: 60rpx;
+  line-height: 60rpx;
+  border: 2rpx solid #000;
+  border-radius:10rpx;  
+  padding-left: 20rpx;
+  padding-right: 5rpx;
+  background-color: #fff;
+}
+.li_action{
+  background-color: #1296db;
+  color:#fff;
+}
+.li_no{
+   background-color: #fff;
+  color:#000;
+}
+.money_zf{
+   width: 80%;
+  padding-left: 15%; 
+  padding-right: 5%;
+  margin-top: 20rpx;
+  font-size: 18px;
+}
+.zf_moneys{
+  font-size: 20px;
+}
+.btn_zf{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 30rpx;
+}
+
+
+.inputs .nav_li{
+  margin-top: 50rpx;
+  width: 90%;
+  height: 250rpx;
+  margin-left: 5%;
+}
+
+.inputs .nav_item{
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.inputs .item_list_active image{
+   width:160rpx;
+  height: 160rpx;
+ 
+  
+}
+.inputs .item_list_noactive  image{
+  width:150rpx;
+  height: 150rpx;
+  
+}
+.btn_didi{
+  margin-top: 100rpx;
+}
+.item_list_noactive{
+  color:#dbdbdb;
+  font-size: 24rpx;
+}
+
+.address{
+ text-align: center;
+ padding: 20rpx 5%；
+}
+.address .title{
+  font-size: 32rpx;
+ 
+}
+.address .content{
+  font-size: 25rpx;
+}
+
+
+
+

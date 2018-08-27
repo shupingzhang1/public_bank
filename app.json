@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "银行线上预约",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#e6e6e6",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#fff",
+    "position": "buttom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "预约",
+        "iconPath": "pages/images/yy.png",
+        "selectedIconPath": "pages/images/yy_s.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "pages/images/li_3.png",
+        "selectedIconPath": "pages/images/li_3_a.png"
+      }
+    ]
+  },
+  "debug": true
+}

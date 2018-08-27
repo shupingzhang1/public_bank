@@ -1,0 +1,22 @@
+<view class="content">
+    <view class="header">
+        <image src="{{userInfo.avatarUrl}}"></image>
+        <view class="name">{{userInfo.nickName}}</view>
+    </view>
+    <view class="yuyue">
+       <view wx:if="{{yuyue==1}}" class="item_list_active">
+        <image src="../images/success.png"></image>
+          <view>预约成功</view>
+          <view>{{address}}</view>
+          
+      </view>
+      <view wx:else class="item_list_noactive">
+        <image src="../images/dd.png"></image>
+        <view>您还没有预约...</view>
+      </view>
+
+    
+    </view>
+    
+</view>
+

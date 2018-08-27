@@ -1,0 +1,62 @@
+<view class="nav">
+  <view class="nav_bar">
+    <view class='user' bindtap='to_my'><image src='../images/user.png'></image></view>
+    <view class="nav_li">
+       中国银行{{province}}{{city}}营业点服务线上预约
+    </view>
+  </view>
+</view>
+<view class="content">
+<view wx:if="{{map_show}}">
+  <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" controls="{{controls}}" bindcontroltap="controltap"  bindmarkertap="markertap" polyline="{{polyline1}}" markers="{{marker}}" bindregionchange="regionchange" callout="{{callout}}" show-location style="width:100%;height:{{map_height}};"></map>
+</view>
+ 
+
+     <view class="inputs">
+          <view class="didi_list qidian" bindtap="set_qidian" >
+              <view class="qidians">出发位置</view>
+              <view class="poin_img"><image src="{{poin_img1}}"></image></view>
+              <view class="qidian_loca">{{qidian_name}}</view>
+          </view>
+          <view >
+            <view class="nav_li">
+                <view class="nav_item" data-list="1" bindtap="tab_list">
+                  <view wx:if="{{item_list==1}}" class="item_list_active">
+                    <image src="../images/timea.png"></image>
+                    <view>等待时间最短</view>
+                  </view>
+                  <view wx:else class="item_list_noactive">
+                    <image src="../images/time.png"></image>
+                    <view>等待时间最短</view>
+                  </view>
+                  
+                </view>
+                <view class="nav_item" data-list="2"  bindtap="tab_list">
+                   <view wx:if="{{item_list==2}}" class="item_list_active">
+                    <image src="../images/jla.png"></image>
+                     <view>距离最短</view>
+                     
+                  </view>
+                  <view wx:else class="item_list_noactive">
+                    <image src="../images/jl.png"></image>
+                    <view>距离最短</view>
+                  </view>
+                  </view>
+                
+            </view>
+            <view class="address">
+              <view class="title">目的银行：</view>
+              <view class="content">{{address}}</view>
+            </view>
+            <view class="btn btn_didi">
+                <button type="primary" class="btn" bindtap="btn_didi">预约 </button>
+            </view>
+          </view>
+    </view>
+  
+
+     
+
+</view>
+
+
